@@ -1,0 +1,126 @@
+/*
+Author: Melanie Wilkinson
+File Name: Lab2, Transitions & Animation
+Date: 9-7-2023
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(253, 252, 159);
+}
+
+h1{
+    margin: auto;
+    color: rgb(0, 0, 0);
+    font-family: 'Borel', cursive;
+}
+
+.flexbox img{
+    width: 150px;
+    height: 150px;
+}
+
+h2{
+    text-align: center;
+    font-family: 'ADLaM Display', cursive;
+}
+
+p{
+    font-family: 'Patrick Hand', cursive;
+    font-size: large;
+}
+
+nav{
+    text-align: center;
+    background-color: rgb(204, 128, 255);
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+}
+
+nav li{
+    
+    display: flex;
+    padding: 20px;
+    color:rgb(0, 0, 0);
+    font-family: 'ADLaM Display', cursive;
+
+}
+
+nav li a:link {
+    color: rgb(0, 0, 0);
+}
+
+nav li a:hover {
+    color: rgb(255, 255, 255);
+    transition: all .5s ease-out;
+    font-size: 13px;
+    transform: scale(2);
+}
+
+nav li a:active{
+    color: rgb(255, 255, 255);
+}
+
+
+.Card{
+    width: 100%;
+    height: 100%;
+    animation: pulse 5s;
+    animation-iteration-count: 3;
+}
+
+.Card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 2 / 1 / 3 / 2; }
+.div3 { grid-area: 3 / 1 / 4 / 2; }
+.div4 { grid-area: 4 / 1 / 5 / 2; }
+.div5 { grid-area: 5 / 1 / 6 / 2; }
+.div6 { grid-area: 6 / 1 / 7 / 2; }
+
+footer{
+    background-color: rgb(253, 252, 159);
+    color: black;
+    padding: 10px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: x-small;
+}
+
+@keyframes pulse{
+    0%{
+        background-color: white;
+    }
+
+    50%{
+        background-color: rgb(192, 255, 184);
+    }
+
+    100%{
+        background-color: white;
+    }
+}
+
+html,
+body {
+    height:100%
+}

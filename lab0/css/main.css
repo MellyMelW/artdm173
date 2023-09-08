@@ -1,0 +1,395 @@
+/* Fonts */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic|Patua+One);
+
+* {
+    box-sizing: border-box;
+}
+
+/**mobile screen**/
+@media only screen and (min-width : 200px) {
+
+    img.image1{
+        top: 0;
+        bottom: 0;
+        position: relative;
+    }
+    
+    img.image2{ 
+        top: 250px;
+        right: 140px;
+        position: absolute;
+        border-radius: 50%;
+        border: 5px solid;
+        border-color: #D5BF92;
+    }
+    
+    img.image3{
+        top: 0;
+        position: auto;
+    }
+    
+    img.image4{
+        position: relative;
+        left: -40px;
+    }
+    
+    img.image5{
+        position: relative;
+        left: 0px;
+    }
+    
+    img.image6{
+        position: relative;
+        left: 40px;
+    }
+    
+    section.navigation{
+        position: absolute;
+        top: 5px;
+        text-align: center;
+        color: #C7AA6F;
+    }
+    
+    section.intro{
+        top: 450px;
+        position: absolute;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        color: black;
+    }
+    
+    section.services{
+        top: 650px;
+        position: absolute;
+        font-family: 'Lato', sans-serif;
+        color: black;
+        font-weight: bold;
+    }
+    
+    section.contact{
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+        color: #D5BF92;
+        background-color: #37472C;
+    }
+    
+    footer{
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+        color: #D5BF92;
+        background-color: #1A2D12;
+    }
+    
+    h1{
+        font-family: 'Patua One', cursive;
+        color: white;
+        text-overflow: ellipsis;
+        font-size: 35px;
+    }
+    
+    h2{
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+    }
+    
+    p{
+        color: #1B440E;
+    }
+    
+    nav{
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+    }
+    
+    nav ul{
+        text-align: center;
+        list-style-type: none;
+    }
+    
+    nav li {
+        display: inline;
+        text-align: center;
+    }
+    
+    nav li a {
+        display: inline;
+        text-align: center;
+        padding: 0.5em 1em;
+    }
+    
+    nav li a:link {
+        color: #ffffff;
+        text-decoration: underline;
+    }
+    
+    nav li a:hover {
+        color: #98BA93;
+        text-decoration: overline;
+    }
+    
+    nav li a:active {
+        color: #ffffff;
+    }
+ 
+}
+
+/**wide screen**/
+@media screen and (min-width: 1000px) {
+
+    img.image1{
+        top: 0;
+        bottom: 0;
+        position: relative;
+    }
+    
+    img.image2{ 
+        top: 250px;
+        left: 478px;
+        position: absolute;
+        border-radius: 50%;
+        border: 5px solid;
+        border-color: #D5BF92;
+    }
+    
+    img.image3{
+        top: 0;
+        position: auto;
+    }
+    
+    img.image4{
+        position: relative;
+        left: -40px;
+    }
+    
+    img.image5{
+        position: relative;
+        left: 0px;
+    }
+    
+    img.image6{
+        position: relative;
+        left: 40px;
+    }
+    
+    section.navigation{
+        position: absolute;
+        top: 5px;
+        left: 255px;
+        text-align: center;
+        color: #C7AA6F;
+    }
+    
+    section.intro{
+        top: 450px;
+        position: absolute;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        color: black;
+    }
+    
+    section.services{
+        top: 650px;
+        position: absolute;
+        font-family: 'Lato', sans-serif;
+        color: black;
+        font-weight: bold;
+    }
+    
+    section.contact{
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+        color: #D5BF92;
+        background-color: #37472C;
+    }
+    
+    footer{
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+        color: #D5BF92;
+        background-color: #1A2D12;
+    }
+    
+    h1{
+        font-family: 'Patua One', cursive;
+        color: white;
+        text-overflow: ellipsis;
+        font-size: 35px;
+        text-align: center;
+    }
+    
+    h2{
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+    }
+    
+    p{
+        color: #1B440E;
+    }
+    
+    nav{
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+    }
+    
+    nav ul{
+        text-align: center;
+        list-style-type: none;
+    }
+    
+    nav li {
+        display: inline;
+        text-align: center;
+    }
+    
+    nav li a {
+        display: inline;
+        text-align: center;
+        padding: 0.5em 1em;
+    }
+    
+    nav li a:link {
+        color: #ffffff;
+        text-decoration: underline;
+    }
+    
+    nav li a:hover {
+        color: #98BA93;
+        text-decoration: overline;
+    }
+    
+    nav li a:active {
+        color: #ffffff;
+    }
+
+}
+
+@media screen and (min-width: 1920px) {
+
+    img.image1{
+        top: 0;
+        bottom: 0;
+        position: relative;
+    }
+    
+    img.image2{ 
+        top: 250px;
+        left: 850px;
+        position: absolute;
+        border-radius: 50%;
+        border: 5px solid;
+        border-color: #D5BF92;
+    }
+    
+    img.image3{
+        top: 0;
+        position: auto;
+    }
+    
+    img.image4{
+        position: relative;
+        left: -40px;
+    }
+    
+    img.image5{
+        position: relative;
+        left: 0px;
+    }
+    
+    img.image6{
+        position: relative;
+        left: 40px;
+    }
+    
+    section.navigation{
+        position: absolute;
+        top: 5px;
+        left: 600px;
+        text-align: center;
+        color: #C7AA6F;
+    }
+    
+    section.intro{
+        top: 450px;
+        position: absolute;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        color: black;
+    }
+    
+    section.services{
+        top: 650px;
+        position: absolute;
+        font-family: 'Lato', sans-serif;
+        color: black;
+        font-weight: bold;
+    }
+    
+    section.contact{
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+        color: #D5BF92;
+        background-color: #37472C;
+    }
+    
+    footer{
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+        color: #D5BF92;
+        background-color: #1A2D12;
+    }
+    
+    h1{
+        font-family: 'Patua One', cursive;
+        color: white;
+        text-overflow: ellipsis;
+        font-size: 35px;
+        text-align: center;
+    }
+    
+    h2{
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+    }
+    
+    p{
+        color: #1B440E;
+    }
+    
+    nav{
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+        color: white;
+    }
+    
+    nav ul{
+        text-align: center;
+        list-style-type: none;
+    }
+    
+    nav li {
+        display: inline;
+        text-align: center;
+        color: white;
+    }
+    
+    nav li a {
+        display: inline;
+        text-align: center;
+        padding: 0.5em 1em;
+        color: white;
+    }
+    
+    nav li a:link {
+        color: #ffffff;
+        text-decoration: underline;
+    }
+    
+    nav li a:hover {
+        color: #98BA93;
+        text-decoration: overline;
+    }
+    
+    nav li a:active {
+        color: #ffffff;
+    }
+}
