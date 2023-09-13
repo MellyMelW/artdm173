@@ -1,0 +1,24 @@
+/*
+Author: Melanie Wilkinson
+File Name: Lab2, Transitions & Animation
+Date: 9-7-2023
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+.Grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 10px;
+}
+    
+.div1 { grid-area: 1 / 1 / 2 / 4; }
+.div2 { grid-area: 2 / 1 / 4 / 2; }
+.div3 { grid-area: 2 / 2 / 4 / 4; }
+.div4 { grid-area: 4 / 1 / 6 / 3; }
+.div5 { grid-area: 4 / 3 / 6 / 4; }
+.div6 { grid-area: 6 / 1 / 7 / 4; }
