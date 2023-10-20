@@ -14,7 +14,7 @@ Date: 9-14-2023
         height: 200px;
         background-image: linear-gradient(red, yellow, blue);
         background-position: center;
-        
+        background-size: auto;
     }
 }
 
@@ -24,6 +24,7 @@ Date: 9-14-2023
         height: 200px;
         background-image: linear-gradient(red, yellow, blue);
         background-position: center;
+        background-size: auto;
     }
 }
 
@@ -33,6 +34,7 @@ Date: 9-14-2023
         height: 200px;
         background-image: linear-gradient(red, yellow, blue);
         background-position: center;
+        background-size: auto;
     }
 }
 
