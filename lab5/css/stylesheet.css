@@ -1,0 +1,58 @@
+/*
+Author: Melanie Wilkinson
+File Name: Lab 3: Advanced Layout with Flexbox, Grid, and positioning
+Date: 9-14-2023
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+@media only screen and (min-width : 200px) {
+    #card1{
+        width: 400px;
+        height: 200px;
+        background-image: linear-gradient(red, yellow, blue);
+        background-position: center;
+        
+    }
+}
+
+@media only screen and (min-width : 700px) {
+    #card1{
+        width: 600px;
+        height: 200px;
+        background-image: linear-gradient(red, yellow, blue);
+        background-position: center;
+    }
+}
+
+@media only screen and (min-width : 1000px) {
+    #card1{
+        width: 900px;
+        height: 200px;
+        background-image: linear-gradient(red, yellow, blue);
+        background-position: center;
+    }
+}
+
+.card2 img{
+    max-width: 100%;
+    height: auto;
+    object-fit: fill;
+}
+
+.card3 img{
+    max-width: 100%;
+    height: auto;
+}
+
+.card4 img{
+    max-width: 100%;
+    height: auto;
+}
+
+.card5 img{
+    width: 100%;
+    height: auto;
+}

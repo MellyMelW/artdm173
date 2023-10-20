@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--
+
+Student Name: Melanie Wilkinson
+Assignment Name: Lab 5: Responsive Images
+Date: 10-18-2023
+
+    -->
+    <head>
+        <link rel="stylesheet" href="css/stylesheet.css">
+        <title>Responsive Images</title>
+    </head>
+    <body>
+        <h1>Responsive background image using background-image, background-position, background-size, and media queries</h1>
+            <div id="card1"></div>
+            
+        <h1>With object-fit property</h1>
+            <section class="card2">
+                <img src="images/sky.jpg" alt="sky">
+            </section>
+
+        <h1>With srcset and size attributes</h1>
+            <section class="card3">
+                <img 
+                    src="images/light.png"
+                    srcset="images/light.png 240w, images/light.png 480w, images/light.png 720w"
+                    sizes="80vw"
+                    alt="light"
+                >  
+            </section>
+
+        <h1>With picture and source tags</h1>
+            <section class="card4">
+                <picture>
+                    <source
+                        srcset="
+                            images/trees.jpg 354w,
+                            images/trees.jpg 554w,
+                            images/trees.jpg 754w"
+                        sizes="80vw">
+                    <img src="images/trees.jpg" alt="trees">
+                </picture>
+            </section>
+
+        <h1>With a scaleable SVG image</h1>
+            <section class="card5">
+                <img src="images/undraw_love_it_xkc2.svg" alt="heart">
+            </section>
+    </body>
+</html>
