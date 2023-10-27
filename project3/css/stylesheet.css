@@ -1,0 +1,476 @@
+/*
+Author: Melanie Wilkinson
+File Name: Project 3
+Date: 10-26-2023
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: #C1A4FF;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+}
+
+nav li{
+    display: flex;
+    padding: 20px;
+    color: black;
+    font-family: 'VT323', monospace;
+}
+
+nav li a:link {
+    color: #000000;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: #ffffff;
+}
+
+nav li a:active {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+h1{
+    padding: 10px;
+    text-align: center;
+    font-family: 'Pixelify Sans', sans-serif;
+    animation-delay: 3s;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s
+}
+
+.flexbox{
+    padding-left: 30px;
+    font-family: 'VT323', monospace;
+    text-align: justify;
+    line-height: 1.5;
+    width: 430px;
+    height: 50px;
+    animation-delay: 3s;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s
+}
+
+.rectangle1{
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    bottom: 595px;
+}
+
+.rectangle2{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 167px;
+}
+
+.rectangle3{
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    bottom: 190px;
+}
+
+.contacts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    padding: 30px;
+    animation-delay: 3s;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s
+    }
+    
+.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 1 / 2 / 2 / 3; }
+.div3 { grid-area: 2 / 1 / 3 / 2; }
+.div4 { grid-area: 2 / 2 / 3 / 3; }
+.div5 { grid-area: 3 / 1 / 4 / 2; }
+.div6 { grid-area: 3 / 2 / 4 / 3; }
+
+.rectangel10{
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    bottom: 240px;
+}
+
+.rectangel11{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 480px;
+}
+
+.rectangel12{
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    bottom: 500px;
+}
+
+h3{
+    font-family: 'VT323', monospace;
+    font-size: x-large;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    font-family: 'VT323', monospace;
+    text-align: justify;
+    line-height: 1.5;
+    width: 430px;
+    height: 50px;
+    padding-left: 30px;
+    animation-delay: 3s;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s
+}
+    
+.project1 { grid-area: 1 / 1 / 2 / 2; }
+.project2 { grid-area: 2 / 1 / 3 / 2; }
+.project3 { grid-area: 3 / 1 / 4 / 2; }
+
+.rectangle7{
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    bottom: 303px;
+}
+
+.rectangle8{
+    position: absolute;
+    bottom: 300px;
+    right: 8px;
+}
+
+.rectangle9{
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    top: 400px;
+}
+
+.aboutme {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    animation-delay: 3s;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s
+}
+    
+.image { 
+    grid-area: 1 / 1 / 2 / 2;
+    padding-left: 30px;
+}
+.paragraph { 
+    grid-area: 1 / 2 / 2 / 3; 
+    font-family: 'VT323', monospace;
+    text-align: justify;
+    line-height: 1.5;
+    width: 200px;
+    height: 50px;
+}
+
+.rectangle4{
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    bottom: 432px;
+}
+
+.rectangle5{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 200px;
+}
+
+.rectangle6{
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    bottom: 222px;
+}
+
+
+
+@media only screen and (min-width : 940px) {
+    .flexbox{
+        display: flex;
+        padding-left: 260px;
+        font-family: 'VT323', monospace;
+        text-align: justify;
+        line-height: 1.5;
+        width: 670px;
+        height: 50px;
+    }
+
+    .rectangle1{
+        display: flex;
+        justify-content: flex-start;
+        position: absolute;
+        bottom: 591px;
+    }
+
+    .rectangel10{
+        display: flex;
+        justify-content: flex-start;
+        position: absolute;
+        bottom: 232px;
+    }
+    
+    .rectangel11{
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        bottom: 550px;
+    }
+    
+    .rectangel12{
+        display: flex;
+        align-items: flex-end;
+        position: relative;
+        bottom: 562px;
+    }
+
+    .contacts {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        padding-left: 250px;
+    }
+
+    .projects {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        font-family: 'VT323', monospace;
+        text-align: justify;
+        line-height: 1.5;
+        width: 700px;
+        height: 50px;
+        padding-left: 300px;
+    }
+
+    .paragraph { 
+        font-family: 'VT323', monospace;
+        text-align: justify;
+        line-height: 1.5;
+        width: 300px;
+        height: 50px;
+    }
+
+    .image { 
+        padding-left: 200px;
+    }
+
+    .rectangle4{
+        display: flex;
+        justify-content: flex-start;
+        position: absolute;
+        bottom: 441px;
+    }
+    
+    .rectangle5{
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        bottom: 279px;
+    }
+    
+    .rectangle6{
+        display: flex;
+        align-items: flex-end;
+        position: relative;
+        bottom: 300px;
+    }
+}
+
+@media only screen and (min-width : 1900px) {
+    .flexbox{
+        display: flex;
+        padding-left: 770px;
+        font-family: 'VT323', monospace;
+        text-align: justify;
+        line-height: 1.5;
+        width: 1130px;
+        height: 50px;
+    }
+
+    .rectangle1{
+        display: flex;
+        justify-content: flex-start;
+        position: absolute;
+        bottom: 592px;
+    }
+
+    .rectangel10{
+        display: flex;
+        justify-content: flex-start;
+        position: absolute;
+        bottom: 242px;
+    }
+
+    .rectangel11{
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        bottom: 685px;
+    }
+    
+    .rectangel12{
+        display: flex;
+        align-items: flex-end;
+        position: relative;
+        bottom: 687px;
+    }
+
+    .contacts {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        padding-left: 600px;
+    }
+
+    .projects {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        font-family: 'VT323', monospace;
+        text-align: justify;
+        line-height: 1.5;
+        width: 1150px;
+        height: 50px;
+        padding-left: 750px;
+    }
+
+    .rectangle7{
+        display: flex;
+        justify-content: flex-start;
+        position: absolute;
+        bottom: 320px;
+    }
+
+    .paragraph { 
+        font-family: 'VT323', monospace;
+        text-align: justify;
+        line-height: 1.5;
+        width: 300px;
+        height: 50px;
+    }
+
+    .image { 
+        padding-left: 500px;
+    }
+
+    .rectangle4{
+        display: flex;
+        justify-content: flex-start;
+        position: absolute;
+        bottom: 442px;
+    }
+    
+    .rectangle5{
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        bottom: 454px;
+    }
+    
+    .rectangle6{
+        display: flex;
+        align-items: flex-end;
+        position: relative;
+        bottom: 456px;
+    }
+}
