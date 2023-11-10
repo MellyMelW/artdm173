@@ -1,0 +1,33 @@
+/*
+Author: Melanie Wilkinson
+File Name: Lab 7: Rich Typography
+Date: 11-2-2023
+*/
+
+h1{
+    font-size:2rem;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+h3{
+    font-size: 1.25rem;
+}
+
+p{
+    font-size: 1rem;
+    line-height: 1.5;
+    max-width: 50vw;
+}
+
+
+
+@media only screen and (min-width : 940px) {
+    html{
+        font-size: 20px;
+        line-height: 1.5;
+        max-width: 50vw;
+    }
+}
